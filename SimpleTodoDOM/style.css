@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    font-size: 10px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+input, button{
+    font-size: large;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: blanchedalmond;
+}
